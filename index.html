@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
@@ -11,18 +13,18 @@
 		<div class="wrapper row">
 			<div>
 				<h1>
-				<img alt="">
+				<a href="#"><img src="img/hosting-logo-black.png" alt="hosting logo black"></a>
 				</h1>
 			</div>
 			<nav>
 				<ul>
-					<li><a href=></a></li>
-					<li><a></a></li>
-					<li><a></a></li>
+					<li><b>Support:</b><a href="mailto:info@hosting.com">info@hosting.com</a></li>
+					<li><a>Register</a></li>
+					<li><a>Log in</a></li>
 				</ul>
 			</nav>
 		</div>
-		<nav class="wrapper">
+		<nav class="wrapper" id="nav-main">
 			<ul>
 				<li><a>Home</a></li>
 				<li><a>About Us</a></li>
@@ -45,11 +47,11 @@
 		
 	</header>
 		
-    <div class="bg-blue">
+    <div id="bg-blue">
         <section class="wrapper row">
             <header>
                 <img alt="">
-                <h2>Search Your<br>Domain</h2>
+                <h2>Search Your<br><span>Domain</span></h2>
             </header>
             <form>
                 <label for="domain-name">Domain Name</label>
@@ -73,63 +75,63 @@
     </div>
     <section class="wrapper">
         <header>
-            <h2></h2>
+            <h2>Our<br><span>Benefits</span></h2>
         </header>
         <div class="row"> <!--first row on top-->
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
                 <div>
                     <header>
-                        <h3></h3>
+                        <h3>99.9% Uptime</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
                 <div>
                     <header>
-                        <h3></h3>
+                        <h3>24/7/365 Support</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
                 <div>
                     <header>
-                        <h3></h3>
+                        <h3>protect your pc</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
         </div>
         <div class="row"> <!-- second row on bottom -->
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
-                <div>
+                <div class="">
                     <header>
-                        <h3></h3>
+                        <h3>DNS control</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
                 <div>
                     <header>
-                        <h3></h3>
+                        <h3>domain transfer</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
-            <section class="row">
+            <section class="row col-1-3">
                 <img alt="">
                 <div>
                     <header>
-                        <h3></h3>
+                        <h3>100% security</h3>
                     </header>
-                    <p></p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
                 </div>
             </section>
         </div>
@@ -138,17 +140,17 @@
 	<!-- yellow, now what is hot portion -->
 	<div id="bg-yellow">
 		<div class="wrapper row">
-			<section>
+			<section class="col-1-2">
 				<header>
-					<h2>Now what is hot</h2>
+					<h2>Now <br><span>what is hot</span></h2>
 				</header>
 				<div>
-					<p></p>
+					<p>Get up to<br><b>50% off</b><br>of each hosting</p>
 				</div>
 			</section>
-			<section>
+			<section class="col-1-2">
 				<header>
-					<h2>Our features</h2>
+					<h2>Our<br><span>features</span></h2>
 				</header>
 				<div class="row">
 					<div>
@@ -168,13 +170,13 @@
 						</ul>
 					</div>
 				</div>
-				<p><a></a></p>
+				<p><a>View all</a></p>
 			</section>
 		</div>
 	</div>
 	<section class="wrapper">
 		<header>
-			<h2>Our hosting</h2>
+			<h2>Our<br><span>hosting</span></h2>
 		</header>
 		<table>
 			<caption>Pricing Table</caption>
@@ -232,13 +234,13 @@
 		</table>
 	</section>
 	
-	<footer><!--apply background color-->
+	<footer id="bg-dark-gray"><!--apply background color-->
 		<div class="wrapper row">
 			<div>
-				<img>
+				<img src="img/footer-logo-white.png" alt="hosting logo white">
 				<p>2015 All Rights Reserved </p>
 			</div>
-			<section>
+			<section class="col-2-3">
 				<h4>Quick Links</h4>
 				<nav class="row">
 					<div>
@@ -262,7 +264,7 @@
 				</nav>
 			</section>
 			
-			<section>
+			<section class="col-2-3">
 				<h4>Contact Us</h4>
 				<address>
 					<p><b>Email:</b><a href="mailto:info@hosting.com">info@hosting.com</a></p>
@@ -270,7 +272,7 @@
 				</address>
 			</section>
 			
-			<section>
+			<section class="col-2-3">
 				<h4>Social Media</h4>
 				<ul>
 					<li><a href="https://www.facebook.com/"><span>facebook</span> </a></li>
