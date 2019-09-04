@@ -52,6 +52,16 @@
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
+/* -- FORMS -- */
+
+form{
+	width: 975px;
+}
+
+form p{
+	display: inline-block;
+}
+
 
 /* -- MEDIA -- */ 
 
@@ -115,6 +125,10 @@ header > div.wrapper.row > div {
 	float:left;
 }
 
+.bg-blue header{
+	float:left
+}
+
 .col-1-3{
 	width: 360px;
 	float: left;
@@ -165,6 +179,15 @@ footer div div{
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
+
+/* -- BUTTONS -- */
+
+.btn{
+	background-color: #ff8261;
+	color: white;
+	font-size: 13.5px;
+	padding: 10px 20px;
+}
 
 /* -- NAVIGATION -- */
 
